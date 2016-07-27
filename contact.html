@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <title>
+            Tricia's Bakeshoppe
+        </title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/triciabakeshoppe.css">
+        <link href='https://fonts.googleapis.com/css?family=Pacifico|Abril+Fatface|Architects+Daughter|Tangerine' rel='stylesheet' type='text/css'>
+
+    </head>
+        
+        <body style="background-image: url(img/contactpage.jpg); background-size: cover">
+            <div class="container">
+            
+            <div class="pagetop">
+                <h1>Tricia's Bakeshoppe</h1>
+                </div>
+                
+                <!-- Navigation Bar -->
+                <br>
+                <nav class="navbar navbar-default">
+
+                <div>
+                            
+                    <ul class="nav navbar-nav" class="nav nav-pills">
+                        
+                            <li class="logobk"> <img src="img/logo.png" class="logoresize"/> </li>
+                            
+                            <li><a href="index.html" style="color: #FF9900">Home</a></li>
+                            
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="about.html" style="color: #F45EA1" role="button"> About
+                                <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="about.html" style="color: #F45EA1">About Tricia's</a></li>
+                                        <li><a href="bakeshoppe.html" style="color: #F45EA1">About The Bakeshoppe</a></li>
+                                        <li><a href="theteam.html" style="color: #F45EA1"> The Team</a></li>
+                                    </ul>
+                            </li>
+                        
+                            <li class="dropdown" class="active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="bakeshoppe.html" style="color: #FF9900"> The Bakeshoppe
+                                <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="menu.html" style="color: #FF9900">Menu</a></li>
+                                        <li><a href="adopteddesserts.html" style="color: #FF9900">Adopted Desserts</a></li>
+                                        <li><a href="class_events.html" style="color: #FF9900">Classes & Events</a></li>
+                                    </ul>
+                            </li>
+                    
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="faq.html" style="color: #F45EA1"> Getting Started
+                                <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="faq.html" style="color: #F45EA1">Frequently Asked Questions</a></li>
+                                        <li><a href="testimonial.html" style="color: #F45EA1"> Testimonials</a></li>
+                                    </ul>
+                            </li>
+                        <li><a href="cakecorner.html" style="color: #FF9900">Cake Corner</a></li>
+                        <li><a href="contact.html" style="color: #F45EA1" class="active">Contact</a></li>
+                    </ul>
+                </div> <!--closing nav bar-->
+                </nav>
+                
+            <div class="row">
+    <div class="col-sm-6 col-md-6">
+
+  <form role="form">
+      <div class="form-group">
+          <label for="Name" class="formtitles">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+      </div>
+      
+      <div class="form-group">
+          <label for="Email Address" class="formtitles">Email Address:</label>
+          <input type="email" class="form-control" placeholder="Enter Your Email Address">
+      </div>
+      
+    <select class="c-select">
+  <option selected>Reason for Contact</option>
+  <option value="1">Place an Order</option>
+  <option value="2">Question About an Existing Order</option>
+  <option value="3">Schedule a Consultation Appointment</option>
+  <option value="4">Question about The Bakeshoppe</option>
+  <option value="5">RSVP for a Class or Event </option>
+  <option value="6">Comment/Suggestion</option>
+  <option value="7">Donation Request</option>
+  <option value="8">Inquiry about an Adopted Dessert</option>
+  <option value="9">Other</option>
+</select>
+
+     <hr>
+     <br>
+    <div class="form-group">
+    <label for="date"class="formtitles">Event Date</label>
+    <input type="date" class="form-control" id="weddingdate">
+    </div>
+    
+  <label class="c-input c-checkbox">
+  <input type="checkbox">
+  <span class="c-indicator"></span>
+  My event is within the 60 days.
+  </label>
+  <br>
+  <br>
+ 
+    <div class="form-group">
+      <label for="comment" class="formtitles">Comments:</label>
+      <textarea class="form-control" rows="5" id="comment" placeholder="Enter Text Here"></textarea>
+    </div>
+  
+        <div class="form-group"> 
+            <div class="col-sm-offset-1 col-sm-10">
+              <button type="submit" class="btn btn-default" id="submit">Submit</button>
+        </div>
+  </div>
+  </form>
+    </div> 
+            </div><!--closing container div-->
+          <script src="js/jquery.js"></script>
+          <script src="js/jquery-ui.js"></script>
+          <script src="js/bootstrap.js"></script>
+          <script src="js/triciabakeshoppe.js"></script>
+        </body>
