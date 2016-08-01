@@ -13,7 +13,24 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/triciabakeshoppe.css">
         <link href='https://fonts.googleapis.com/css?family=Pacifico|Abril+Fatface|Architects+Daughter|Tangerine' rel='stylesheet' type='text/css'>
-
+        
+        <script type="text/javascript">
+            var quotations = new Array()
+            quotations[0]= "<span>Sweet</span>"
+            quotations[1]= "<span>Fun</span>"
+            quotations[2]= "<span>Welcoming</span>"
+            quotations[3]= "<span>Warm</span>"
+            quotations[4]= "<span>Unique</span>"
+            quotations[5]= "<span>Indulgent</span>"
+            quotations[6]= "<span>Love</span>"
+            
+            function display()
+            {
+            a=Math.floor(Math.random()*quotations.length)
+            document.getElementById('textslide').innerHTML=quotations[a]
+            setTimeout("display()",1000)
+            }
+            </script>
     </head>
         
         <body>
@@ -32,7 +49,7 @@
                         
                             <li class="logobk"> <img src="img/logo.png" class="logoresize"/> </li>
                             
-                            <li><a href="index.html" style="color: #FF9900" class="active">Home</a></li>
+                            <li><a href="index.html" style="color: #FF9900">Home</a></li>
                             
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="about.html" style="color: #F45EA1" role="button"> About
@@ -72,6 +89,16 @@
         <div class="container">
           <div class="jumbotron jumbotron-special"> </div>
           
+          <div class="together1">
+          <div id="bakeshoppeblurb" class="together">Tricia's Bakeshoppe is: <div id="textslide" class="together">
+              
+            <script type="text/javascript">display()</script>
+    
+          </div></div></div>
+          
+          <br>
+          <br>
+          
           <div class="panel panel-default">
               <div class="panel-heading">The Bakeshoppe</div>
               <div class="panel-body">
@@ -79,7 +106,7 @@
                   And not so sweet for those who prefer desserts with less sweetness.
                   In fact, our desserts are so delicious because we focus more on textures and flavor combinations than sugar-loading.
                   To the sweet tooths out there, don't worry. We have something for everyone!
-                  And we also welcome vegans and those with dietary restrictions!</span>
+                  We also welcome vegans and those with dietary restrictions!</span>
               </div>
           </div>
         </div>

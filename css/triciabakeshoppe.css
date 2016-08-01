@@ -548,3 +548,19 @@ label {
     font-size: 19px;
     color: #F45EA1;
 }
+
+#textslide {
+    font-family: 'Architects Daughter', cursive;
+    color: #F45EA1;
+    font-size: 37.5px;
+}
+
+#bakeshoppeblurb {
+    font-family: 'Abril Fatface', cursive;
+    color: #562900;
+    font-size: 30px;
+}
+
+.together {
+    display: inline-block;
+}
